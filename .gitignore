@@ -52,6 +52,8 @@ models/*.mlmodelc
 models/*.mlpackage
 models/*-encoder-openvino.xml
 models/*-encoder-openvino-cache/
+models/*.bin
+models/ggml-*.bin
 bindings/java/.gradle/
 bindings/java/.idea/
 .idea/
@@ -63,3 +65,21 @@ cmake-build-debug/
 local.properties
 .log
 .exe
+
+# Conda/Miniconda
+Miniconda3-*.sh
+miniconda3/
+
+# Python virtual environments
+venv/
+env/
+ENV/
+
+# Model files (large binaries)
+*.ggml
+*.gguf
+
+# Build artifacts from examples
+examples/**/build/
+examples/**/*.o
+examples/**/*.a
