@@ -20,7 +20,7 @@ High-performance inference of [OpenAI's Whisper](https://github.com/openai/whisp
 - Zero memory allocations at runtime
 - [Vulkan support](#vulkan-gpu-support)
 - Support for CPU-only inference
-- [Efficient GPU support for NVIDIA](#nvidia-gpu-support)
+- [Efficient GPU support for NVIDIA](#nvidia-gpu-support) with CUDA acceleration
 - [OpenVINO Support](#openvino-support)
 - [Ascend NPU Support](#ascend-npu-support)
 - [Moore Threads GPU Support](#moore-threads-gpu-support)
